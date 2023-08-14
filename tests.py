@@ -13,5 +13,6 @@ class FooTest(unittest.TestCase):
 
     def test_fact(self):
         self.assertEqual(Foo(3).factorial(), 6)
+        self.assertEqual(Foo(2).factorial(), 2)
 
 print('all passed')
